@@ -14,7 +14,7 @@ const options = {
 	method: 'POST',
 	url: 'https://api.github.com/user/repos',
 	data: {
-		name, description, homepage: 'https://github.com', private: priv,
+		name, description, private: priv,
 	},
 	headers: {'Content-Type': 'application/json', 'Authorization': `token ${token}`},
 	json: true,
